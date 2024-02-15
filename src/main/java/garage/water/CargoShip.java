@@ -9,7 +9,7 @@ public class CargoShip extends Vehicle implements IWaterVehicle, IEngine{
     private String hullType;
     private IEngine engine;
 
-    public CargoShip(float weight, int maxSpeed, int numberOfContainers, IEngine engine){
+    public CargoShip(float weight, int maxSpeed, int numberOfContainers, IEngine engine, String hullType){
         super(weight, maxSpeed);
         this.numberOfContainers = numberOfContainers;
         this.hullType = hullType;

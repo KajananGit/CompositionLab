@@ -19,7 +19,7 @@ public class Runner {
         System.out.println(porsche911.getHorsePower());
 
 
-        CargoShip everGreen = new CargoShip(15000, 70, 150, combustionEngine);
+        CargoShip everGreen = new CargoShip(15000, 70, 150, combustionEngine, "steel");
         System.out.println(everGreen.getHorsePower());
 
         everGreen.setEngine(electricEngine);
